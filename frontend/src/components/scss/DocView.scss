@@ -1,0 +1,98 @@
+.doc-view-table-div {
+    width: 80%;
+    .doc-view-header {
+        display: flex;
+        flex-flow: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        span {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 20px;
+        }
+        .doc-view-header-input {
+            text-align: left;
+            p {
+                margin: 0 0 5px 0;
+            }
+            button {
+                margin: 5px 0 0 0;
+                padding: 0px 5px;
+            }
+        }
+        .doc-view-qr-icon {
+            font-size: 60px;
+            padding: 5px 0;
+            &:hover {
+                background-color: rgba(128, 128, 128, 0.5);
+            }
+        }
+        p {
+            font-weight: bold;
+        }
+    }
+    .doc-view-qr-scan {
+        width: max-content;
+        margin: 0 auto;
+    }
+    .doc-view-index {
+        margin: 10px 0 0 0;
+        span {
+            font-size: 40px;
+            font-weight: bold;
+            &:nth-child(2) {
+                color: blue;
+                font-style: italic;
+                margin-left: 10px;
+            }
+        }
+        li {
+            list-style-type: decimal-leading-zero;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 40px;
+            margin-bottom: 10px;
+            background-color: rgb(255, 233, 191);
+            &:hover {
+                background-color: rgba(128, 128, 128, 0.5);
+            }
+        }
+    }
+    .doc-view-doc-list {
+        .doc-view-doc-header {
+            margin: 0 0 5px 0;
+            span {
+                font-size: 25px;
+                font-weight: bold;
+                &:last-child {
+                    font-size: 30px;
+                    color: blue;
+                    font-style: italic;
+                    margin: 0 0 0 5px;
+                }
+            }
+        }
+        span {
+            margin-left: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #backtoMCno {
+            font-size: 20px;
+            &:hover {
+                background-color: rgba(128, 128, 128, 0.5);
+            }
+        }
+        #openfile {
+            margin-left: 5px;
+            cursor: pointer;
+            &:hover {
+                background-color: rgba(128, 128, 128, 0.5);
+            }
+        }
+        td {
+            font-size: 20px;
+        }
+    }
+}

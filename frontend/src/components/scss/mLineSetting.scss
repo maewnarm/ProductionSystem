@@ -1,0 +1,126 @@
+//Table
+.table-list {
+    margin: 30px 0px;
+}
+
+.row-list {
+    display: flex;
+    justify-content: center;
+}
+
+#line-set-col0 {
+    width: 15%;
+    min-width: 150px;
+}
+
+#line-set-col1 {
+    width: 55%;
+    min-width: 150px;
+}
+
+#line-set-col2 {
+    width: 15%;
+    min-width: 120px;
+}
+
+#line-set-col3 {
+    width: 15%;
+    min-width: 140px;
+}
+
+.edit-btn {
+    padding: 2px 5px;
+    margin: 0px 0px 0px 5px;
+}
+
+//modal
+.line-list-content {
+    .modal-content {
+        width: 100% !important;
+        height: 380px;
+        background-color: rgba($color: #ffffff, $alpha: 1.0) !important;
+    }
+}
+
+.fault-body {
+    width: 100% !important;
+    padding: 10px 20px 15px 10px !important;
+}
+
+#mcno {
+    margin-bottom: 10px;
+}
+
+#mcname {
+    margin-bottom: 10px;
+}
+
+.check-box-modal {
+    margin: 20px 5px 0 0;
+}
+
+//input form
+.fault-form-group1 {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 5px 0px 0px 0px;
+}
+
+.st-form-submit-btn {
+    display: flex;
+    margin: 0px 5px 5px 15px;
+}
+
+.st-form-clear-btn {
+    display: flex;
+    margin: 0px 5px 5px 0px;
+}
+
+.help-ht {
+    font-style: italic;
+    margin: 0px 0px;
+}
+
+.edit-check-box {
+    margin: 0 5px 0 0 ;
+    display: inline;
+}
+
+//dropdown
+.dropdown-selected .dropdown-toggle {
+    border-color: green;
+    border-width: 1px;
+    background-color: white;
+    color: dimgray;
+    &:focus {
+        background-color: white;
+        color: dimgray;
+        border-color: green;
+        border-width: 1px;
+    }
+}
+
+.dropdown-noselect .dropdown-toggle {
+    border-color: red;
+    border-width: 1px;
+    background-color: white;
+    color: dimgray;
+    &:focus {
+        background-color: white;
+        color: dimgray;
+        border-color: red;
+        border-width: 1px;
+    }
+}
+
+.dropdown-toggle {
+    &.active {
+        background-color: white;
+    }
+    &:focus {
+        background-color: white;
+    }
+    &:hover {
+        background-color: white;
+    }
+}

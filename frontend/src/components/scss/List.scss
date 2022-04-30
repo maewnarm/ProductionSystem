@@ -1,0 +1,100 @@
+.form-group {
+    background-color: rgb(212, 243, 255);
+    border-radius: 15px;
+}
+
+.form-group1 {
+    padding-top: 5px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+#col1 {
+    width: 20%;
+    min-width: 200px;
+}
+
+#col2 {
+    width: 25%;
+}
+
+#col3 {
+    width: 25%;
+}
+
+#col4 {
+    width: 30%;
+}
+
+#leftbtn {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#listdetail {
+    margin-bottom: 20px;
+}
+
+div.form-group {
+    background-color: transparent;
+}
+
+.regis-content {
+    .modal-content {
+        width: 100% !important;
+        height: 400px;
+        background-color: rgba($color: #ffffff, $alpha: 1.0) !important;
+    }
+}
+
+.regis-body {
+    width: 100% !important;
+}
+
+.regis-delete-content {
+    .modal-content {
+        width: 100% !important;
+        height: 250px;
+        background-color: rgba($color: #ffffff, $alpha: 1.0) !important;
+    }
+}
+
+.regis-delete-body {
+    .modal-body {
+        height: auto !important;
+    }
+    width: 100% !important;
+}
+
+.regis-delete-label {
+    font-size: 30px;
+}
+
+.regis-head {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 10px;
+}
+
+.regis-table-search {
+    margin-right: auto;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.search-txt {
+    min-width: fit-content;
+    margin: auto 0;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.regis-table-page {
+    margin-left: auto;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+@import "~bootstrap/scss/bootstrap";

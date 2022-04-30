@@ -1,0 +1,148 @@
+//Table
+.table-list {
+    margin: 30px 0px;
+}
+
+.row-list {
+    display: flex;
+    justify-content: center;
+}
+
+#item-set-col0 {
+    width: 15%;
+    min-width: 150px;
+}
+
+#item-set-col1 {
+    width: 10%;
+    min-width: 100px;
+}
+
+#item-set-col2 {
+    width: 15%;
+    min-width: 120px;
+}
+
+#item-set-col3 {
+    width: 35%;
+}
+
+#item-set-col4 {
+    width: 15%;
+}
+
+#item-set-col5 {
+    width: 10%;
+}
+
+.edit-btn {
+    padding: 2px 5px;
+    margin: 0px 0px 0px 5px;
+}
+
+//modal
+.item-list-content {
+    .modal-content {
+        width: 100% !important;
+        height: 480px;
+        background-color: rgba($color: #ffffff, $alpha: 1.0) !important;
+    }
+}
+
+.fault-body {
+    width: 100% !important;
+    padding: 10px 20px 15px 10px !important;
+}
+
+#mcno {
+    margin-bottom: 10px;
+}
+
+#mcname {
+    margin-bottom: 10px;
+}
+
+.check-box-modal {
+    margin: 20px 5px 0 0;
+}
+
+//input form
+.fault-form-group1 {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 5px 0px 0px 0px;
+}
+
+.fault-form-group2 {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 5px 0px 0px 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.st-form-submit-btn {
+    display: flex;
+    margin: 0px 5px 5px 15px;
+}
+
+.st-form-clear-btn {
+    display: flex;
+    margin: 0px 5px 5px 0px;
+}
+
+.help-ht {
+    font-style: italic;
+    margin: 0px 0px;
+}
+
+.edit-check-box {
+    margin: auto 0px ;
+    margin-right: 5px;
+    display: inline;
+}
+
+.edit-label {
+    margin: auto 0px;
+}
+
+//dropdown
+.dropdown-selected .dropdown-toggle {
+    border-color: green;
+    border-width: 1px;
+    background-color: white;
+    color: dimgray;
+    max-width: 260px;
+    &:focus {
+        background-color: white;
+        color: dimgray;
+        border-color: green;
+        border-width: 1px;
+    }
+}
+
+.dropdown-noselect .dropdown-toggle {
+    border-color: red;
+    border-width: 1px;
+    background-color: white;
+    color: dimgray;
+    max-width: 260px;
+    &:focus {
+        background-color: white;
+        color: dimgray;
+        border-color: red;
+        border-width: 1px;
+    }
+}
+
+.dropdown-toggle {
+    &.active {
+        background-color: white;
+    }
+    &:focus {
+        background-color: white;
+    }
+    &:hover {
+        background-color: white;
+    }
+}

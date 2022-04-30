@@ -1,0 +1,254 @@
+.title-head {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.left-item {
+    float: left;
+    display: flex;
+    width: 290px;
+    min-width: 290px;
+    justify-content: center;
+}
+
+.graph-operation {
+    width: auto;
+    margin-left: 290px;
+    margin-right: 30px;
+}
+
+.line-box {
+    display: flex;
+    justify-content: left;
+    margin: 110px 0px 0px 0px;
+    height: fit-content;
+}
+
+.month-box {
+    display: flex;
+    justify-content: left;
+    margin: 30px 0px 0px 0px;
+    height: fit-content;
+}
+
+.month-label {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    width: 70px;
+}
+
+.btn-outline-secondary:first-child {
+    width: 150px;
+}
+
+.selected-list-btn {
+    background-color: lightgreen;
+    color: black;
+    font-weight: bold;
+}
+
+.changed-list-btn {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+.blank-list-btn {
+    background-color: tomato;
+    color: black;
+    font-weight: bold;
+}
+
+.updated-year {
+    background-color: lightgreen;
+    color: black;
+    font-weight: bold;
+    min-width: 150px;
+    max-width: 150px;
+    border-color: gray;
+    &:focus {
+        background-color: lightgreen;
+    }
+}
+
+.changed-year {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    min-width: 150px;
+    max-width: 150px;
+    &:focus {
+        background-color: yellow;
+    }
+}
+
+.blank-year {
+    background-color: tomato;
+    color: black;
+    font-weight: bold;
+    min-width: 150px;
+    max-width: 150px;
+    &:focus {
+        background-color: tomato;
+    }
+}
+
+.year-input-group {
+    display: flex;
+    justify-content: left;
+    margin: 30px 0 0 0 ;
+}
+
+.year-label {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 5px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 70px;
+}
+
+.year-input {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.ct-input-group {
+    margin: 30px 0 0 0 ;
+}
+
+.ct-label {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 70px;
+}
+
+.target-label {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.ct-show {
+    margin: 0 5px;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.sec-label {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-type-m {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.btn-type-sel-noupdate {
+    background-color: lightskyblue;
+    color: black;
+    height: 35px;
+    background-size: 35px;
+    padding: 0px 10px;
+    &.active {
+        border-width: 4px !important;
+        background-color: yellow !important;
+        border-color: lightcoral !important;
+        color: black !important;
+        font-weight: bold;
+    }
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+.btn-type-sel-update {
+    background-color: lightskyblue;
+    color: black;
+    height: 35px;
+    background-size: 35px;
+    padding: 0px 10px;
+    &.active {
+        border-width: 4px !important;
+        background-color: lightgreen !important;
+        border-color: lightcoral !important;
+        color: black !important;
+        font-weight: bold;
+    }
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+.get-data-btn {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.save-data-btn {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.table {
+    margin-left: 5px;
+}
+
+.react-bootstrap-table table {
+    table-layout: fixed;
+}
+
+.react-bootstrap-table-editing-cell {
+    background-color: salmon;
+}
+
+.day-edit {
+    background-color:  yellow !important;
+    font-size: 12px;
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+    z-index: 0 !important;
+    position: relative;
+}
+
+.all-cell {
+    white-space: normal;
+    text-overflow: clip;
+    overflow: hidden;
+    word-break: break-all;
+    border-color: grey !important;
+}
+
+.tooltip-time1 {
+    font-style: italic;
+    text-decoration: underline;
+    margin: 0 0 0 10px;
+}
+
+.graph-operation .recharts-label{
+    font-size: 15px !important;
+    font-weight: bold;
+}

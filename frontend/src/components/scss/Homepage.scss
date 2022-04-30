@@ -1,0 +1,102 @@
+.p-home {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: crimson;
+    padding-bottom: 20px;
+    &:first-child {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+}
+
+.table-work-counter {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.row-btn {
+    justify-content: center;
+}
+
+.text-shift {
+    margin: auto 0;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn-type-home {
+    .btn-shift-home {
+        background-color: lightskyblue;
+        font-size: 25px;
+        color: black;
+        height: 50px;
+        background-size: 35px;
+        padding: 0px 10px;
+        &.active {
+            border-width: 4px !important;
+            background-color: lightgreen !important;
+            border-color: lightcoral !important;
+            color: black !important;
+            font-weight: bold;
+        }
+        &:focus {
+            box-shadow: none !important;
+        }
+    }
+}
+
+.text-load {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#counter-col1 {
+    width: 70%;
+    min-width: 200px;
+    font-size: 30px;
+}
+
+#counter-col2 {
+    width: 30%;
+    min-width: 100px;
+    font-size: 30px;
+}
+
+#total-col1 {
+    width: 70%;
+    min-width: 200px;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    color: navy;
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+#total-col2 {
+    width: 30%;
+    min-width: 100px;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    color: navy;
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+.td-home-1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: mediumblue;
+}
+
+.td-home-2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+}

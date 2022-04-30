@@ -1,0 +1,524 @@
+//title
+.title {
+    text-align: center;
+}
+
+.title-head {
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+}
+
+.title-row {
+    display: flex;
+    justify-content: center;
+}
+
+//select chart type
+.btn-type-sel {
+    background-color: lightskyblue;
+    color: black;
+    height: 35px;
+    background-size: 35px;
+    padding: 0px 10px;
+    &.active {
+        border-width: 4px !important;
+        background-color: lightskyblue !important;
+        border-color: lightcoral !important;
+        color: black !important;
+        font-weight: bold;
+    }
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+// Chart
+.custom-tooltip {
+    background-color: rgb(255, 212, 212);
+    border-radius: 10px;
+    border-color: rgb(92, 47, 47);
+    border-style: solid;
+    border-width: thin;
+}
+
+.tooltip-head {
+    font-weight: bold;
+    margin: 0px 10px 0px 10px;
+}
+
+.tooltip-time {
+    margin: 0px 10px 0px 10px;
+}
+
+.tooltip-detail {
+    margin: 0px 10px 0px 10px;
+}
+
+.tooltip-detail-end {
+    margin: 0px 10px 5px 10px;
+}
+
+.legend-bar-chart {
+    padding: 0px 0px 0px 60px !important;
+}
+
+//Slider
+
+.rangeslider {
+    width: 60%;
+    padding-top: 30px;
+    height: 100px;
+}
+
+.HandleTooltip {
+    display: flex;
+    justify-content: center;
+}
+
+//Date picker
+
+#datetag{
+    padding-left: 20px;
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.d-flex {
+    margin-top: 30px;
+    display: flex;
+    align-items: baseline;
+}
+
+.react-datepicker-wrapper {
+    margin-right: 5px;
+    input {
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        width: 150px;
+    }
+}
+
+//Shift Button
+
+.btn-group {
+    justify-items: center;
+}
+
+.btn-day {
+    background-color: lightskyblue;
+    color: black;
+    height: 35px;
+    background-size: 35px;
+    padding: 0px 10px;
+    &.active {
+        border-width: 4px !important;
+        background-color: lightskyblue !important;
+        border-color: lightcoral !important;
+        color: black !important;
+        font-weight: bold;
+    }
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+.btn-night {
+    background-color: darkgray;
+    color: black;
+    height: 35px;
+    background-size: 35px;
+    padding: 0px 10px;
+    &.active {
+        border-width: 4px !important;
+        background-color: darkgray !important;
+        border-color: lightcoral !important;
+        color: black !important;
+        font-weight: bold;
+    }
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+// break time button
+.btn-break-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px !important;
+}
+
+.mor-brk {
+    margin: 0 15px;
+}
+
+.lun-brk {
+    margin: 0 15px;
+}
+
+.aft-brk {
+    margin: 0 15px;
+}
+
+//Date Time Picker
+.head-time {
+    display: flex;
+    justify-content: center;
+    span {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+.manual-check {
+    margin: auto 0 ;
+    margin-right: 5px;
+}
+
+.react-datepicker__input-container {
+    display: flex !important;
+    justify-content: center;
+}
+
+.datetime-picker {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.datetime-picker-sub {
+    display: flex;
+    flex-flow: column;
+    width: fit-content;
+    margin: 0 20px;
+}
+
+.time-show {
+    margin: 10px auto;
+    margin-top: 2px;
+    font-size: 15px;
+    padding: 0 10px;
+    width: fit-content;
+}
+
+.break-datepicker {
+    font-size: 15px !important;
+}
+
+.time-text {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+//progress spinner
+.modal-content {
+    width: 220px;
+    background: rgba(white,0.7);
+}
+
+.modal-body {
+    align-self: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 16px 16px 32px;
+    height: 100px;
+    width: 200px;
+}
+
+h5 {
+    margin: 0px 0px 5px 0px;
+    width: fit-content;
+}
+
+//Station select check box
+.station-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.list-text {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.st-button {
+    margin: 0px 5px;
+    &:hover {
+        background-color: cyan !important;
+        color: black !important;
+    }
+    &.active {
+        background-color: moccasin !important;
+        color: black !important;
+        font-weight: bold;
+        &:hover {
+            background-color: cyan !important;
+        }
+    }
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+//OEE element
+div.oee-element {
+    margin: 0px 0px 0px 0px;
+}
+
+#oee-col1 {
+    width: 40%;
+}
+
+#oee-col2 {
+    width: 30%;
+}
+
+#oee-col3 {
+    width: 30%
+}
+
+.oee-table-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.oee-table-text-sub {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.title-mc-time-ele {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.oee-percent-item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.time-table {
+    width: 100%;
+}
+
+.avg-item {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: lightyellow;
+    justify-content: center;
+    border-color: black;
+    border-style: solid;
+}
+
+.avg-left { 
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.avg-right {
+    color: orangered;
+    font-weight: bold;
+    font-size: 40px;
+    margin: auto 0;
+    width: 70%;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+//include button
+.oee-inc-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.inc-btn {
+    margin: 0px 5px;
+    &:hover {
+        background-color: cyan !important;
+        color: black !important;
+    }
+    &.active {
+        background-color: moccasin !important;
+        color: black !important;
+        font-weight: bold;
+        &:hover {
+            background-color: cyan !important;
+        }
+    }
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+//enable legend button
+.btn-enable-legend {
+    margin: 0px 5px;
+    padding: 3px 10px;
+    &:hover {
+        background-color: cyan !important;
+        color: black !important;
+    }
+    &.active {
+        background-color: rgb(57, 255, 50) !important;
+        color: black !important;
+        font-weight: bold;
+    }
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+#hover-tips {
+    margin: 0px 0px 0px 5px;
+}
+
+//fault pareto
+.fault-pareto {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.total-fault {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.work-qty-label {
+    min-width: fit-content;
+    margin: auto 0;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.work-qty-input {
+    display: flex;
+    width: 380px;
+    margin: 0 auto;
+}
+
+.input-work-qty {
+    color: black;
+    font-weight: bold;
+}
+
+.recharts-wrapper .recharts-label {
+    font-size: 20px !important;
+}
+
+svg.recharts-surface {
+    overflow: visible;
+}
+
+//quality traceability
+.trace-col-1 {
+    min-width: 230px;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightblue;
+}
+
+.trace-col {
+    min-width: fit-content;
+    max-width: fit-content;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightblue;
+}
+
+.ok-cell {
+    background-color: lightgreen;
+}
+
+.ng-cell {
+    background-color: tomato;
+}
+
+.table-search {
+    margin: 20px auto;
+    width: 80%;
+}
+
+div.dropdown-menu.show.qtrace-drop-menu {
+    width: fit-content !important;
+}
+
+.table-page {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.page-item.active .page-link {
+    z-index: 0;
+}
+
+.page-link:focus {
+    box-shadow: none;
+    z-index: 0;
+}
+
+button.page-link {
+    width: 40px;
+}
+
+.select-column {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    max-width: 1000px;
+    align-items: center;
+}
+
+.select-btn {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.btn-show-col {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    &:hover {
+        background-color: cyan !important;
+        color: black !important;
+    }
+    &.active {
+        background-color: lightgreen !important;
+        color: black !important;
+        font-weight: bold;
+        &:hover {
+            background-color: cyan !important;
+        }
+    }
+    &:focus {
+        box-shadow: none !important;
+    }
+}
