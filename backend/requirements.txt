@@ -23,7 +23,7 @@ djangorestframework==3.11.1
 Eel==0.12.4
 filelock==3.0.12
 future==0.18.2
-gevent==21.1.2
+gevent==21.12.0
 gevent-websocket==0.10.1
 greenlet==1.1.0
 idna==2.10
@@ -39,9 +39,6 @@ pyinstaller-hooks-contrib==2021.2
 PyJWT==2.0.0
 pylint==2.6.0
 pyodbc==4.0.30
-PyQt5==5.15.4
-PyQt5-Qt5==5.15.2
-PyQt5-sip==12.9.0
 python3-openid==3.2.0
 pytz==2020.1
 pywin32-ctypes==0.2.0
@@ -51,8 +48,6 @@ six==1.15.0
 sqlparse==0.3.1
 toml==0.10.1
 urllib3==1.26.2
-virtualenv==20.2.1
-virtualenvwrapper-win==1.2.6
 whichcraft==0.6.1
 wrapt==1.12.1
 zope.event==4.5.0
