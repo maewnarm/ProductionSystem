@@ -11,13 +11,16 @@ class App extends Component {
   constructor() {
     super();
     // const baseURL = `http://127.0.0.1:8000/api/`;
-    const baseURL = `http://172.23.3.18:8000/api/`;
+    // const baseURL = `http://172.23.3.18:8000/api/`;
+    const baseURL = `${process.env.REACT_APP_BASE_URL}api/`;
 
     // const baseURLbe = `http://127.0.0.1:8000/`;
-    const baseURLbe = `http://172.23.3.18:8000/`;
+    // const baseURLbe = `http://172.23.3.18:8000/`;
+    const baseURLbe = `${process.env.REACT_APP_BASE_URL}`;
 
     // const apiupload = `http://127.0.0.1:5000/upload/`;
-    const apiupload = `http://172.23.3.18:5000/upload/`;
+    // const apiupload = `http://172.23.3.18:5000/upload/`;
+    const apiupload = `${process.env.REACT_APP_UPLOAD_URL}upload/`;
 
     localStorage.setItem("baseurl", baseURL);
     localStorage.setItem("baseurlbe", baseURLbe);
