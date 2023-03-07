@@ -93,13 +93,13 @@ DATABASES = {
     'default': {
         #'ENGINE': 'django.db.backends.postgresql',
         'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'ProductionSystem',
+        'NAME': 'production_system',
         #'USER': 'postgres',
         'USER': 'sa',
-        'PASSWORD': 'EPPE@7348',
-        #'HOST': '127.0.0.1',
+        'PASSWORD': 'EPPE7348',
+        'HOST': 'host.docker.internal',
         #'PORT': '5432'
-        'HOST': 'BPK003018\EPPEDB1',
+        # 'HOST': 'BPK003018\EPPEDB1',
 
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',

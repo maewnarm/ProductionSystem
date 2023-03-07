@@ -1,0 +1,20 @@
+version: "3"
+services:
+  backend:
+    image: production_system
+    container_name: productionsystem
+    ports:
+      - "8000:8000"
+    expose:
+      - 8000
+    volumes:
+      - ./backend/ProductionSystem:/code/ProductionSystem
+    command: "python manage.py runserver 0.0.0.0:8000"
+  frontend:
+    image: production_system_frontend
+    container_name: productionsystem_frontend
+    ports:
+      - "80:80"
+    expose:
+      - 80
+    command: "serve -s build -l tcp://0.0.0.0:80"
